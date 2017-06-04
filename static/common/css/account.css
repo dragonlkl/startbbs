@@ -1,0 +1,73 @@
+/* 
+* @Author: anchen
+* @Date:   2017-06-04 19:44:19
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-06-04 20:08:36
+*/
+
+@charset "utf-8";
+
+/*重置部分*/
+*{ padding:0; margin:0;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+body{background: #fff;font-family:"微软雅黑";font-size: 12px;}
+p{margin: 0;padding: 0;color: #333;white-space:pre-wrap;}
+.mt10{margin-top: 10px;}
+.mt20{margin-top: 20px;}
+.mr10{margin-right: 10px;}
+.ml10{margin-left: 10px;}
+.mlr5{margin:0 10px;}
+.pd10{padding: 10px;}
+.pdlr10{padding: 0 10px;}
+.pdbt10{padding: 10px 0;}
+.red{color: #ff0000;}
+.green{color: #35c124;}
+.orange{color: #ff6600;}
+.black{color: #333;}
+.black:hover{color: #333;}
+.dark{color: #666;}
+.txt_right{text-align: right;}
+.txt_center{text-align: center;}
+.txt_delete{text-decoration: line-through;}
+.fl{float: left;}
+.fr{float: right;}
+.f12{font-size: 12px;}
+.f14{font-size: 14px;}
+.f16{font-size: 16px;}
+.mui-table-view-cell>a:not(.mui-btn).mui-active{background-color: rgba(0,0,0,0);}
+.border_top{border-top: 1px solid #e1e1e1;}
+.border_top_none{border-top: none;}
+.border_right{border-right: 1px solid #e1e1e1;}
+.hidden{display: none}
+
+
+/* =====mui重置===== */
+.mui-table-view-cell{}
+.mui-table-view-cell:after{left: 0;right: 0;}
+input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea{margin:0;height: auto;line-height: auto;padding: 0}
+
+
+/*通用部分*/
+/*底部按钮区域*/
+.area_foot{width: 100%;position: fixed;bottom: 0;left: 0;margin: 0;padding: 15px 10px;background: #FFFFFF;overflow: hidden;border-top: 1px solid #e1e1e1;}
+.area_foot .btn_cancel{width: 45%;line-height: 16px;font-size: 14px;color: #b8b8b8;border:1px solid #dfdfdf;border-radius: 15px;margin-right: 5%;}
+.area_foot .btn_red{width: 45%;background: #fc7167;line-height: 16px;font-size: 14px;color: #fff;border:1px solid #fc7167;border-radius: 15px;}
+.area_foot .need_pay{vertical-align: middle;font-size: 16px;margin-right: 10px;line-height: 16px;display: inline-block;margin-top: 1%;}
+
+
+
+.tc_black{position:absolute;top:0%;left:0%;width:100%;height:100%;background:rgba(0,0,0,.3);z-index:2;}
+.tc_center{background: #fff;border-radius: 15px;width: 70%;margin: 0 auto;position: fixed;top: 35%;left: 15%;padding:10px;z-index: 999}
+.tc_center .tc_title{line-height: 30px;font-size: 16px;font-weight: bold;text-align: center}
+.tc_center .tc_content{text-align: center;font-size: 13px;margin-bottom: 20px;margin-top: 5px;}
+.tc_center .tc_btn{text-align: center;font-size: 13px;}
+.tc_center .tc_btn .btn_tc{border:none;background: #35c124;border-radius: 10px;color: #fff;}
+
+/*出现弹窗后页面不能滚蛋*/
+.posf{ position:fixed}
+
+
+
+
+/*bootstarp重置*/
+.form-horizontal{background: #fff;}
+.form-group{background: #fff}

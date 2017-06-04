@@ -1,0 +1,35 @@
+/* =========登录========= */
+.login_icon{text-align: center;margin-top: 0;background: #fff;padding-bottom: 20px;}
+.login_icon .mui-icon-qq{color: #ffa726;font-size: 75px;}
+
+.login_list li{line-height: 30px;}
+input.item_ipt{line-height: 30px;font-size: 12px;padding: 0 5px;border:none;}
+.list_btn{padding: 0 10px;padding-top:50px;background: #fff;}
+.list_btn .btn_list{background: #ffa726;border: none;color: #fff;width: 100%;border-radius: 10px;line-height: 30px;font-size: 16px;}
+.list_btn .btn_list_f{background: #fff;border: 1px solid #ffa726;color: #ffa726;width: 100%;border-radius: 10px;line-height: 30px;font-size: 16px;display: inline-block;text-align: center;}
+
+/* =========主页========= */
+.week_box{width: 100%;position: relative;background: #fff;min-height: 22rem;}
+.week_box .day_box{background: #fff;width: 4.5rem;height:4rem;text-align: center;padding: 1rem 0;line-height: 1rem;}
+.week_box .monday{position: absolute;left: 1.25rem;top: 1rem;background: #e84e40;}
+.week_box .tuesday{position: absolute;left: 5.75rem;top: 1rem;background: #ff7043;}
+.week_box .wednesday{position: absolute;left: 10.25rem;top: 1rem;background: #ffa726;}
+.week_box .thursday{position: absolute;left: 9.5rem;top: 5rem;background: #2baf2b;}
+.week_box .friday{position: absolute;left: 8.7rem;top: 9rem;background: #9ccc65;}
+.week_box .saturday{position: absolute;left: 7.75rem;top: 13rem;background: #29b6f6;}
+.week_box .sunday{position: absolute;left: 6.75rem;top: 17rem;background: #7e57c2;}
+
+
+.week_box .day_box .day{color: #fff;}
+.week_box .day_box .date{color: #fff;}
+
+.foot_btn{padding: 0 10px;padding-top:20px;background: #fff;}
+.foot_btn .btn_foot{background: #ffa726;color: #fff;line-height: 30px;width: 100%;border-radius: 10px;line-height: 30px;font-size: 16px;border: none;}
+.check_history{text-align: center;background: #fff;line-height: 30px;font-size: 16px;}
+.check_history a{color: #ffa726;text-decoration: underline}
+.person{background: #fff;text-align: center;position: absolute;bottom: 2%;width: 100%;}
+.person .mui-icon{font-size: 18px;color: #666}
+.person .user_name{color: #666;}
+
+
+

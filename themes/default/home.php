@@ -14,33 +14,30 @@
 
     <div class="mui-content">
         <div class="week_box">
-            <div class="day_box monday">
-                <p class="day">Monday</p>
-                <p class="date">05-22</p>
-            </div>
-            <div class="day_box tuesday">
-                <p class="day">Tuesday</p>
-                <p class="date">05-23</p>
-            </div>
+            <a href="<?php echo site_url('Oneday/account_list')?>">
+                <div class="day_box monday">
+                    <p class="day">Monday</p>
+                </div>
+            </a>
+            <a href="oneday.php">
+                <div class="day_box tuesday">
+                    <p class="day">Tuesday</p>
+                </div>
+            </a>
             <div class="day_box wednesday">
                 <p class="day">Wednesday</p>
-                <p class="date">05-24</p>
             </div>
             <div class="day_box thursday">
                 <p class="day">Thursday</p>
-                <p class="date">05-25</p>
             </div>
             <div class="day_box friday">
                 <p class="day">Friday</p>
-                <p class="date">05-26</p>
             </div>
             <div class="day_box saturday">
                 <p class="day">Saturday</p>
-                <p class="date">05-27</p>
             </div>
             <div class="day_box sunday">
                 <p class="day">Sunday</p>
-                <p class="date">05-28</p>
             </div>
         </div>
 

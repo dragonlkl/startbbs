@@ -67,8 +67,7 @@
 							<span class="help-block red"><?php echo form_error('node_id');?></span>
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" id="post_content" name="content" placeholder="话题内容" rows="10"><?php echo set_value('content'); ?>
-</textarea>
+                                <textarea class="form-control" id="post_content" name="content" placeholder="话题内容" rows="10"><?php echo set_value('content'); ?></textarea>
 								<span class="help-block red"><?php echo form_error('content');?></span>
 							    <p>
 								<span text-muted>可直接粘贴链接和图片地址/发代码用&lt;pre&gt;标签</span>

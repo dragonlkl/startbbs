@@ -34,14 +34,14 @@
                         <?php endforeach;?>
                     </ul>
                     <div class="add_day">
-                        <a href="<?php echo site_url('topic/add');?>"><span class="mui-icon mui-icon-compose"></span>增加当天账单</a>
+                        <a href="<?php echo site_url('account/add');?>"><span class="mui-icon mui-icon-compose"></span>增加当天账单</a>
                     </div>
                 </div>
             <?php else : ?>
                 <div class="record">
                     <p class="express">今天还没有人记账呢。</p>
                     <p class="express">快来记下今天的帐吧~</p>
-                    <a href="<?php echo site_url('topic/add');?>"><button class="btn_small_add">去记账</button></a>
+                    <a href="<?php echo site_url('account/add');?>"><button class="btn_small_add">去记账</button></a>
                 </div>
             <?php endif;?>
         </div>

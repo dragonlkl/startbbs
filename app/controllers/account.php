@@ -161,10 +161,10 @@ class Account extends SB_controller
         if(!$this->auth->is_login()) {
             redirect('user/login/');
         }
-        if(!$this->auth->user_permit($node_id)) {//权限
-            $this->session->set_flashdata('error', '您无权在此节点发表话题!请重新选择节点');
-            exit;
-        }
+        // if(!$this->auth->user_permit($node_id)) {//权限
+        //     $this->session->set_flashdata('error', '您无权在此节点发表话题!请重新选择节点');
+        //     exit;
+        // }
         if($_POST && $this->form_validation->run() === TRUE){
             if(time()-$user['lastpost']<$this->config->item('timespan')){
                 $this->session->set_flashdata('error', '发帖最小间隔时间是'.$this->config->item('timespan').'秒!');

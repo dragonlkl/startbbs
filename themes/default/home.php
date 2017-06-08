@@ -14,7 +14,7 @@
 
     <div class="mui-content">
         <div class="week_box">
-            <a href="<?php echo site_url('Oneday/account_list')?>">
+            <a href="<?php echo site_url('oneday/account_list')?>">
                 <div class="day_box monday">
                     <p class="day">Monday</p>
                 </div>

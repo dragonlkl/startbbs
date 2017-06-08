@@ -55,19 +55,20 @@ input.item_ipt{line-height: 30px;font-size: 12px;padding: 0 5px;border:none;}
 /* =========ACCOUNT ADD========= */
 .add_item .mui-active{background: transparent}
 .add_item li{padding: 0 0.5rem;line-height: 2.5rem;}
-.add_item .item_left{border-right: 1px solid #c8c7cc;padding-right: 0.5rem;text-align: justify;font-size: 16px;}
-.add_item .item_right{padding-left: 0.5rem;font-size: 16px;}
+.add_item .item_left{padding-right: 0.5rem;text-align: justify;font-size: 16px;}
+.add_item .item_right{border-left: 1px solid #c8c7cc;padding-left: 0.5rem;font-size: 16px;}
 .add_item .item_right .ipt_txt{border: none;}
 .add_item .item_right .mui-radio{display: inline-block;width: 23%;}
 .add_item .item_right .mui-radio input[type=radio]:before{font-size: 20px;color: #ffa726}
-.mui-checkbox input[type=checkbox], .mui-radio input[type=radio]{top:0.8rem;left: 0;}
+.mui-checkbox input[type=checkbox], .mui-radio input[type=radio]{top:0.55rem;left: 0;}
 .add_item .item_right .mui-radio .radio_txt{display: inline-block;margin-left: 1.2rem;}
 .add_item .item_right .mui-checkbox{display: inline-block;width: 23%;}
 .add_item .item_right .mui-checkbox input[type=checkbox]:before{font-size: 20px;color: #ffa726}
 .mui-checkbox input[type=checkbox], .mui-radio input[type=radio]{top:0.8rem;left: 0;}
 .add_item .item_right .mui-checkbox .radio_txt{display: inline-block;margin-left: 1.2rem;}
 .txt_express{text-align: center;color: #999;line-height: 1.5rem;padding-top: 1rem;font-size: 0.6rem;background: #fff;}
-
+.add_item .item_right .help-block{line-height: 1rem;}
+.add_item .item_right select.form-control{height: 2.5rem;border: none;}
 
 
 /* =========ACCOUNT CONFIRM========= */

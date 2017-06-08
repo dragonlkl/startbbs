@@ -46,7 +46,7 @@
 							<?php } elseif(set_value('node_id')){?>
 							<option selected="selected" value="<?php echo set_value('node_id'); ?>"><?php echo $cate['cname']?></option>
 							<?php } else {?>
-							<option selected="selected" value="">请选择分类</option>
+							<option selected="selected" value="">请选择</option>
 							<?php } ?>
 							<?php if($category[0]) foreach($category[0] as $v) {?>
 							<?php if($category[$v['node_id']]){?>

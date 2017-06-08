@@ -196,7 +196,7 @@ class topic extends SB_controller
 			} else{
 				$data['keywords'] = $this->input->post ('keywords', true);
 			}
-			
+			//var_dump($data['keywords']);exit();
 			
 			if($this->topic_m->add($data)){
 				//最新贴子id
